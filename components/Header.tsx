@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
+import { Theme } from "./Theme";
 
 export default function Header() {
   return (
@@ -32,6 +33,7 @@ export default function Header() {
             </motion.li>
           ))}
         </ul>
+        <Theme />
       </nav>
     </header>
   );
